@@ -1,0 +1,84 @@
+import Vue from "vue";
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Menu,
+  MenuItem,
+  Submenu,
+  MenuItemGroup,
+  Container,
+  Header,
+  Footer,
+  Aside,
+  Main,
+  Message,
+  RadioGroup,
+  TableColumn,
+  Table,
+  Pagination,
+  Switch,
+  Breadcrumb,
+  BreadcrumbItem,
+  Dialog,
+  Select,
+  Popconfirm,
+  Popover,
+  Notification,
+  Tag,
+  Timeline,
+  TimelineItem,
+  Row,
+  Col,
+  Alert,
+  Cascader,
+  Steps,
+  Step,
+  Upload,
+  Image,
+  Tabs,
+  TabPane,
+  MessageBox,
+} from "element-ui";
+
+Vue.use(Button);
+Vue.use(Form);
+Vue.use(Input);
+Vue.use(FormItem);
+Vue.use(Menu);
+Vue.use(MenuItem);
+Vue.use(Submenu);
+Vue.use(MenuItemGroup);
+Vue.use(Container);
+Vue.use(Header);
+Vue.use(Footer);
+Vue.use(Aside);
+Vue.use(Main);
+Vue.use(RadioGroup);
+Vue.use(TableColumn);
+Vue.use(Table);
+Vue.use(Switch);
+Vue.use(Pagination);
+Vue.use(Breadcrumb);
+Vue.use(BreadcrumbItem);
+Vue.use(Dialog);
+Vue.use(Select);
+Vue.use(Popconfirm);
+Vue.use(Popover);
+Vue.use(Tag);
+Vue.use(Timeline);
+Vue.use(TimelineItem);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Alert);
+Vue.use(Cascader);
+Vue.use(Steps);
+Vue.use(Step);
+Vue.use(Upload);
+Vue.use(Image);
+Vue.use(Tabs);
+Vue.use(TabPane);
+Vue.prototype.$confirm = MessageBox.confirm;
+Vue.prototype.$message = Message;
+Vue.prototype.$notify = Notification;
